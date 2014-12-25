@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="FullScreenDemo.FullScreenDemo"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="550" Height="400" Foreground="#00000000">
+    <Canvas x:Name="LayoutRoot" Background="Black">
+
+        <Canvas.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform ScaleX="1" ScaleY="1" x:Name="Scale" />
+                <TranslateTransform X="0" Y="0" x:Name="Translate" />
+            </TransformGroup>
+        </Canvas.RenderTransform>
+        
+        <Button Content="Full Screen with Scale" x:Name="FullScreen1" Canvas.Left="220" Canvas.Top="170"/>
+        <Button Content="Full Screen without Scale" x:Name="FullScreen2" Canvas.Left="211" Canvas.Top="220"/>
+    </Canvas>
+</UserControl>

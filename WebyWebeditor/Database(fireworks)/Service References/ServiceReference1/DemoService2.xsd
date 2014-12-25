@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:50065/DemoService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Database_fireworks_.Web" />
+  <xs:import schemaLocation="http://localhost:50065/DemoService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:element name="GetRows">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRowsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Database_fireworks_.Web" minOccurs="0" name="GetRowsResult" nillable="true" type="q1:ArrayOftable_signup1" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRows1">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRows1Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Database_fireworks_.Web" minOccurs="0" name="GetRows1Result" nillable="true" type="q2:ArrayOfserverdb" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sup_tbox_fname" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sup_tbox_lname" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sup_tbox_duname" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sup_tbox_add" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="malefemale" type="xs:int" />
+        <xs:element minOccurs="0" name="dob" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sup_pbox_pswd" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sup_tblox_pemail" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sup_tbox_aemail" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertDataResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertData1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="filename" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="richtext" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertData1Response">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteRow">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/" minOccurs="0" name="uid" type="q3:guid" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteRowResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

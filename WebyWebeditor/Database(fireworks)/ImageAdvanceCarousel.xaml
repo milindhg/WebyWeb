@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="ImageAdvanceCarousel.ImageAdvanceCarousel"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="550" Height="400" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d">
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Canvas Width="550" Height="400" x:Name="Holder" Background="Transparent"/>
+        
+        <StackPanel VerticalAlignment="Bottom" Orientation="Horizontal" Margin="138,0,133,22">
+            <Grid Width="138" d:IsLocked="True">
+                <Image Source="images/up.png" Width="48" Height="48" x:Name="MoveLeftButton" Cursor="Hand">
+                    <Image.RenderTransform>
+                        <RotateTransform Angle="-90" CenterX="24" CenterY="24"/>
+                    </Image.RenderTransform>
+                </Image>
+            </Grid>
+
+            <Grid Width="138" d:IsLocked="True">
+                <Image Source="images/up.png" Width="48" Height="48" x:Name="MoveRightButton" Cursor="Hand">
+                    <Image.RenderTransform>
+                        <RotateTransform Angle="90" CenterX="24" CenterY="24"/>
+                    </Image.RenderTransform>
+                </Image>
+            </Grid>
+        </StackPanel>
+        <Rectangle Margin="147,125,151,130" Fill="#0CFFFFFF" Stroke="{x:Null}" x:Name="currimg"/>
+        <TextBlock Height="17" Margin="136,0,0,79" VerticalAlignment="Bottom" Text="Current Image = " TextWrapping="Wrap" Width="101" HorizontalAlignment="Left"/>
+        <TextBlock Height="20" Margin="259,0,119,79" VerticalAlignment="Bottom" Text="TextBlock" TextWrapping="Wrap" x:Name="imgtext"/>
+        
+       
+    </Grid>
+</UserControl>

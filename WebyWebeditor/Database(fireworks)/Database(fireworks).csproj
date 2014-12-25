@@ -1,0 +1,356 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C15CDC18-9838-412A-A2D9-252576443D52}</ProjectGuid>
+    <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Database_fireworks_</RootNamespace>
+    <AssemblyName>Database%28fireworks%29</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>Database(fireworks).xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>Database_fireworks_.App</SilverlightAppEntry>
+    <TestPageFileName>TestPage.html</TestPageFileName>
+    <CreateTestPage>true</CreateTestPage>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>false</ThrowErrorsInValidation>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Liquid, Version=5.2.0.26386, Culture=neutral, PublicKeyToken=7fbdd25c3fcc3919, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Bin\Debug\Liquid.dll</HintPath>
+    </Reference>
+    <Reference Include="Liquid.Components, Version=5.2.0.26385, Culture=neutral, PublicKeyToken=7fbdd25c3fcc3919, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Bin\Debug\Liquid.Components.dll</HintPath>
+    </Reference>
+    <Reference Include="Liquid.Menu, Version=5.2.0.26379, Culture=neutral, PublicKeyToken=7fbdd25c3fcc3919, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Bin\Debug\Liquid.Menu.dll</HintPath>
+    </Reference>
+    <Reference Include="Liquid.Popup, Version=5.2.0.26381, Culture=neutral, PublicKeyToken=7fbdd25c3fcc3919, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Bin\Debug\Liquid.Popup.dll</HintPath>
+    </Reference>
+    <Reference Include="Liquid.RichText, Version=5.2.0.26382, Culture=neutral, PublicKeyToken=7fbdd25c3fcc3919, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Bin\Debug\Liquid.RichText.dll</HintPath>
+    </Reference>
+    <Reference Include="Liquid.TreeView, Version=5.2.0.26384, Culture=neutral, PublicKeyToken=7fbdd25c3fcc3919, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Bin\Debug\Liquid.TreeView.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows" />
+    <Reference Include="mscorlib" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Controls, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.Data, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Windows.Browser" />
+    <Resource Include="91716-17.jpg" />
+    <Resource Include="date1.jpg" />
+    <Resource Include="exclamation_mark_tcm31-68171.jpg" />
+    <BlendEmbeddedFont Include="Fonts\andlso.ttf">
+      <IsSystemFont>True</IsSystemFont>
+    </BlendEmbeddedFont>
+    <BlendEmbeddedFont Include="Fonts\ahronbd.ttf">
+      <IsSystemFont>True</IsSystemFont>
+    </BlendEmbeddedFont>
+    <Resource Include="happy.png" />
+    <Resource Include="Picture2.png" />
+    <Resource Include="silvpic.png" />
+    <Resource Include="unhappy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ColourfulFirework.xaml.cs">
+      <DependentUpon>ColourfulFirework.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="editor.xaml.cs">
+      <DependentUpon>editor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FullScreenDemo.xaml.cs">
+      <DependentUpon>FullScreenDemo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ImageAdvanceCarousel.xaml.cs">
+      <DependentUpon>ImageAdvanceCarousel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ImageCarousel.xaml.cs">
+      <DependentUpon>ImageCarousel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MagicDot.cs" />
+    <Compile Include="Page.xaml.cs">
+      <DependentUpon>Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\ServiceReference1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="signup.xaml.cs">
+      <DependentUpon>signup.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SnowFlake.xaml.cs">
+      <DependentUpon>SnowFlake.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="status.xaml.cs">
+      <DependentUpon>status.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="ColourfulFirework.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="editor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FullScreenDemo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ImageAdvanceCarousel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ImageCarousel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Page.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="signup.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SnowFlake.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="status.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Fonts\tahoma.ttf" />
+    <Resource Include="Fonts\tahomabd.ttf" />
+    <None Include="images\Thumbs.db" />
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Service References\ServiceReference1\Database_fireworks_.ServiceReference1.serverdb.datasource">
+    </None>
+    <None Include="Service References\ServiceReference1\Database_fireworks_.ServiceReference1.serverdb1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\Database_fireworks_.ServiceReference1.table_signup1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\DemoService.wsdl" />
+    <None Include="Service References\ServiceReference1\DemoService.xsd" />
+    <Resource Include="VINERITC.TTF" />
+    <Resource Include="images\addcolleft.jpg" />
+    <Resource Include="images\addcolright.jpg" />
+    <Resource Include="images\addrowdown.jpg" />
+    <Resource Include="images\addrowup.jpg" />
+    <Resource Include="images\aligncenter.jpg" />
+    <Resource Include="images\alignleft.jpg" />
+    <Resource Include="images\alignment.jpg" />
+    <Resource Include="images\alignright.jpg" />
+    <Resource Include="images\audiovideo.jpg" />
+    <Resource Include="images\bell.png" />
+    <Resource Include="images\bold.jpg" />
+    <Resource Include="images\bulletnumberindentation.jpg" />
+    <Resource Include="images\bullets.png" />
+    <Resource Include="images\button.jpg" />
+    <Resource Include="images\cake.png" />
+    <Resource Include="images\center.png" />
+    <Resource Include="images\chart.jpg" />
+    <Resource Include="images\checkbox.jpg" />
+    <Resource Include="images\checkbox1.jpg" />
+    <Resource Include="images\cloud.png" />
+    <Resource Include="images\Copy of alignment.jpg" />
+    <Resource Include="images\Copy of audiovideo.jpg" />
+    <Resource Include="images\copy.png" />
+    <Resource Include="images\cut.png" />
+    <Resource Include="images\date1.jpg" />
+    <Resource Include="images\date2.jpg" />
+    <Resource Include="images\dedent.png" />
+    <Resource Include="images\delete.png" />
+    <Resource Include="images\deltable.jpg" />
+    <Resource Include="images\doc.png" />
+    <Resource Include="images\document.png" />
+    <Resource Include="images\down.png" />
+    <Resource Include="images\drop down.jpg" />
+    <Resource Include="images\earth.png" />
+    <Resource Include="images\editTable.png" />
+    <Resource Include="images\feed.png" />
+    <Resource Include="images\folder.png" />
+    <Resource Include="images\folderOpen.png" />
+    <Resource Include="images\fontstyle.jpg" />
+    <Resource Include="images\gif.png" />
+    <Resource Include="images\happy.png" />
+    <Resource Include="images\house.png" />
+    <Content Include="images\HR.bmp" />
+    <Resource Include="images\HR1.jpg" />
+    <Resource Include="images\hyperlink.jpg" />
+    <Resource Include="images\hyperlink1.jpg" />
+    <Resource Include="images\image1.jpg" />
+    <Resource Include="images\image2.jpg" />
+    <Resource Include="images\image3.jpg" />
+    <Resource Include="images\indent.png" />
+    <Resource Include="images\italic.jpg" />
+    <Resource Include="images\justify.jpg" />
+    <Resource Include="images\left.png" />
+    <Resource Include="images\line1.jpg" />
+    <Resource Include="images\link.png" />
+    <Resource Include="images\menu1.jpg" />
+    <Resource Include="images\mp3.png" />
+    <Resource Include="images\mp4.png" />
+    <Resource Include="images\numbers.png" />
+    <Resource Include="images\page border.jpg" />
+    <Resource Include="images\painter.png" />
+    <Resource Include="images\paste.png" />
+    <Resource Include="images\pdf.png" />
+    <Resource Include="images\preview.png" />
+    <Resource Include="images\radiobutton.jpg" />
+    <Resource Include="images\radiobutton1.jpg" />
+    <Resource Include="images\redo.png" />
+    <Resource Include="images\right.png" />
+    <Resource Include="images\save.png" />
+    <Resource Include="images\shapes1.jpg" />
+    <Resource Include="images\shield.png" />
+    <Resource Include="images\Shiny1.jpg" />
+    <Resource Include="images\Shiny10.jpg" />
+    <Resource Include="images\Shiny11.jpg" />
+    <Resource Include="images\Shiny12.jpg" />
+    <Resource Include="images\Shiny2.jpg" />
+    <Resource Include="images\Shiny3.jpg" />
+    <Resource Include="images\Shiny4.jpg" />
+    <Resource Include="images\Shiny5.jpg" />
+    <Resource Include="images\Shiny6.jpg" />
+    <Resource Include="images\Shiny7.jpg" />
+    <Resource Include="images\Shiny8.jpg" />
+    <Resource Include="images\Shiny9.jpg" />
+    <Resource Include="images\splitcell.jpg" />
+    <Resource Include="images\strike.png" />
+    <Resource Include="images\style.png" />
+    <Resource Include="images\subscript.png" />
+    <Resource Include="images\superscript.png" />
+    <Resource Include="images\table related.jpg" />
+    <Resource Include="images\table.png" />
+    <Resource Include="images\table1.jpg" />
+    <Resource Include="images\table2.jpg" />
+    <Resource Include="images\tablealignbottomcenter.jpg" />
+    <Resource Include="images\tablealignbottomleft.jpg" />
+    <Resource Include="images\tablealignbottomright.jpg" />
+    <Resource Include="images\tablealignmidcenter.jpg" />
+    <Resource Include="images\tablealignmidleft.jpg" />
+    <Resource Include="images\tablealignmidright.jpg" />
+    <Resource Include="images\tablealigntopcenter.jpg" />
+    <Resource Include="images\tablealigntopleft.jpg" />
+    <Resource Include="images\tablealigntopright.jpg" />
+    <Resource Include="images\telephone.png" />
+    <Resource Include="images\text area and block.jpg" />
+    <Resource Include="images\textarea.jpg" />
+    <Resource Include="images\textblock.jpg" />
+    <Resource Include="images\textbox.jpg" />
+    <Resource Include="images\textbox1.jpg" />
+    <Resource Include="images\tick.png" />
+    <Resource Include="images\tv.png" />
+    <Resource Include="images\underline.jpg" />
+    <Resource Include="images\undo.png" />
+    <Resource Include="images\unhappy.png" />
+    <Resource Include="images\up.png" />
+    <Resource Include="images\user.png" />
+    <Resource Include="images\viewdesigncode.jpg" />
+    <Resource Include="images\wink.png" />
+    <Resource Include="images\xls.png" />
+    <Resource Include="images\zoom.jpg" />
+    <Content Include="myFilertb1.xml" />
+    <Content Include="RichText.xml" />
+    <None Include="Service References\ServiceReference1\DemoService.disco" />
+    <None Include="Service References\ServiceReference1\DemoService1.wsdl" />
+    <None Include="Service References\ServiceReference1\DemoService1.xsd" />
+    <None Include="Service References\ServiceReference1\DemoService2.xsd" />
+    <None Include="Service References\ServiceReference1\configuration91.svcinfo" />
+    <None Include="Service References\ServiceReference1\configuration.svcinfo" />
+    <None Include="Service References\ServiceReference1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="WebHelp.chm" />
+    <Content Include="ServiceReferences.ClientConfig" />
+    <None Include="SL.wmv" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServiceReference1\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\v3.0\Microsoft.Silverlight.CSharp.targets" Condition="" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{A1591282-1198-4647-A2B1-27E5FF5F6F3B}">
+        <SilverlightProjectProperties />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="SubsetFontSilverlight.targets" />
+</Project>

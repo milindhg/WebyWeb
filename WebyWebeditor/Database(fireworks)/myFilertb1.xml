@@ -1,0 +1,14 @@
+<LiquidRichText xmlns:liquid="clr-namespace:Liquid;assembly=Liquid.RichText">
+<Style ID="H1" FontFamily="Arial" FontSize="28" FontWeight="Bold" Foreground="#FF000000" Alignment="Left" VerticalAlignment="Center" />
+<Style ID="H2" FontFamily="Arial" FontSize="24" FontWeight="Bold" Foreground="#FF000000" Alignment="Left" VerticalAlignment="Center" />
+<Style ID="H3" FontFamily="Arial" FontSize="18" FontWeight="Bold" Foreground="#FF000000" Alignment="Left" VerticalAlignment="Center" />
+<Style ID="Normal" FontFamily="Arial" FontSize="14" Foreground="#FF000000" Alignment="Left" VerticalAlignment="Center" />
+<Style ID="Custom0" FontFamily="Arial" FontSize="14" Foreground="#FF000000" Alignment="Center" VerticalAlignment="Center" />
+<TableStyle ID="TableDefault" BorderBrush="#FF000000" BorderThickness="1,1,1,1" CellBorderBrush="#FF000000" CellBorderThickness="1,1,1,1" CellPadding="2">
+</TableStyle>
+<Newline />
+<Text Style="Normal"><![CDATA[segkjlvdrkbhft]]></Text>
+<Newline />
+<Text Style="Custom0"><![CDATA[rdgbvfbtfb]]></Text>
+<Xaml><Button Width="Auto" Height="Auto" Name="vv" Value="vvvv"></Button></Xaml>
+</LiquidRichText>

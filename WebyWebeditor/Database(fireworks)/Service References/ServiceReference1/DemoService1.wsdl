@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="/Imports">
+      <xsd:import schemaLocation="http://localhost:50065/DemoService.svc?xsd=xsd0" />
+      <xsd:import schemaLocation="http://localhost:50065/DemoService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:50065/DemoService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Database_fireworks_.Web" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="DemoService_GetRows_InputMessage">
+    <wsdl:part name="parameters" element="GetRows" />
+  </wsdl:message>
+  <wsdl:message name="DemoService_GetRows_OutputMessage">
+    <wsdl:part name="parameters" element="GetRowsResponse" />
+  </wsdl:message>
+  <wsdl:message name="DemoService_GetRows1_InputMessage">
+    <wsdl:part name="parameters" element="GetRows1" />
+  </wsdl:message>
+  <wsdl:message name="DemoService_GetRows1_OutputMessage">
+    <wsdl:part name="parameters" element="GetRows1Response" />
+  </wsdl:message>
+  <wsdl:message name="DemoService_InsertData_InputMessage">
+    <wsdl:part name="parameters" element="InsertData" />
+  </wsdl:message>
+  <wsdl:message name="DemoService_InsertData_OutputMessage">
+    <wsdl:part name="parameters" element="InsertDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="DemoService_InsertData1_InputMessage">
+    <wsdl:part name="parameters" element="InsertData1" />
+  </wsdl:message>
+  <wsdl:message name="DemoService_InsertData1_OutputMessage">
+    <wsdl:part name="parameters" element="InsertData1Response" />
+  </wsdl:message>
+  <wsdl:message name="DemoService_DeleteRow_InputMessage">
+    <wsdl:part name="parameters" element="DeleteRow" />
+  </wsdl:message>
+  <wsdl:message name="DemoService_DeleteRow_OutputMessage">
+    <wsdl:part name="parameters" element="DeleteRowResponse" />
+  </wsdl:message>
+  <wsdl:portType name="DemoService">
+    <wsdl:operation name="GetRows">
+      <wsdl:input wsaw:Action="urn:DemoService/GetRows" message="DemoService_GetRows_InputMessage" />
+      <wsdl:output wsaw:Action="urn:DemoService/GetRowsResponse" message="DemoService_GetRows_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRows1">
+      <wsdl:input wsaw:Action="urn:DemoService/GetRows1" message="DemoService_GetRows1_InputMessage" />
+      <wsdl:output wsaw:Action="urn:DemoService/GetRows1Response" message="DemoService_GetRows1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertData">
+      <wsdl:input wsaw:Action="urn:DemoService/InsertData" message="DemoService_InsertData_InputMessage" />
+      <wsdl:output wsaw:Action="urn:DemoService/InsertDataResponse" message="DemoService_InsertData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertData1">
+      <wsdl:input wsaw:Action="urn:DemoService/InsertData1" message="DemoService_InsertData1_InputMessage" />
+      <wsdl:output wsaw:Action="urn:DemoService/InsertData1Response" message="DemoService_InsertData1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteRow">
+      <wsdl:input wsaw:Action="urn:DemoService/DeleteRow" message="DemoService_DeleteRow_InputMessage" />
+      <wsdl:output wsaw:Action="urn:DemoService/DeleteRowResponse" message="DemoService_DeleteRow_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

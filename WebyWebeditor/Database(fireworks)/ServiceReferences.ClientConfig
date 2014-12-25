@@ -1,0 +1,17 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicHttpBinding_DemoService" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://localhost:50065/DemoService.svc" binding="basicHttpBinding"
+                bindingConfiguration="BasicHttpBinding_DemoService" contract="ServiceReference1.DemoService"
+                name="BasicHttpBinding_DemoService" />
+        </client>
+    </system.serviceModel>
+</configuration>

@@ -1,0 +1,28 @@
+C:\final\commenting back up\commenting back up\WebyWebeditor13April 10 15\WebyWebeditor\Database(fireworks).Web\bin\Database(fireworks).Web.dll
+C:\final\commenting back up\commenting back up\WebyWebeditor13April 10 15\WebyWebeditor\Database(fireworks).Web\bin\Database(fireworks).Web.pdb
+C:\final\commenting back up\commenting back up\WebyWebeditor13April 10 15\WebyWebeditor\Database(fireworks).Web\bin\System.Web.Silverlight.dll
+C:\final\commenting back up\commenting back up\WebyWebeditor13April 10 15\WebyWebeditor\Database(fireworks).Web\bin\de\System.Web.Silverlight.resources.dll
+C:\final\commenting back up\commenting back up\WebyWebeditor13April 10 15\WebyWebeditor\Database(fireworks).Web\bin\es\System.Web.Silverlight.resources.dll
+C:\final\commenting back up\commenting back up\WebyWebeditor13April 10 15\WebyWebeditor\Database(fireworks).Web\bin\fr\System.Web.Silverlight.resources.dll
+C:\final\commenting back up\commenting back up\WebyWebeditor13April 10 15\WebyWebeditor\Database(fireworks).Web\bin\it\System.Web.Silverlight.resources.dll
+C:\final\commenting back up\commenting back up\WebyWebeditor13April 10 15\WebyWebeditor\Database(fireworks).Web\bin\ja\System.Web.Silverlight.resources.dll
+C:\final\commenting back up\commenting back up\WebyWebeditor13April 10 15\WebyWebeditor\Database(fireworks).Web\bin\ko\System.Web.Silverlight.resources.dll
+C:\final\commenting back up\commenting back up\WebyWebeditor13April 10 15\WebyWebeditor\Database(fireworks).Web\bin\zh-Hans\System.Web.Silverlight.resources.dll
+C:\final\commenting back up\commenting back up\WebyWebeditor13April 10 15\WebyWebeditor\Database(fireworks).Web\bin\zh-Hant\System.Web.Silverlight.resources.dll
+C:\final\commenting back up\commenting back up\WebyWebeditor13April 10 15\WebyWebeditor\Database(fireworks).Web\obj\Release\ResolveAssemblyReference.cache
+C:\final\commenting back up\commenting back up\WebyWebeditor13April 10 15\WebyWebeditor\Database(fireworks).Web\obj\Release\Database(fireworks).Web.dll
+C:\final\commenting back up\commenting back up\WebyWebeditor13April 10 15\WebyWebeditor\Database(fireworks).Web\obj\Release\Database(fireworks).Web.pdb
+C:\WebyWebeditor\Database(fireworks).Web\bin\Database(fireworks).Web.dll
+C:\WebyWebeditor\Database(fireworks).Web\bin\Database(fireworks).Web.pdb
+C:\WebyWebeditor\Database(fireworks).Web\bin\System.Web.Silverlight.dll
+C:\WebyWebeditor\Database(fireworks).Web\bin\de\System.Web.Silverlight.resources.dll
+C:\WebyWebeditor\Database(fireworks).Web\bin\es\System.Web.Silverlight.resources.dll
+C:\WebyWebeditor\Database(fireworks).Web\bin\fr\System.Web.Silverlight.resources.dll
+C:\WebyWebeditor\Database(fireworks).Web\bin\it\System.Web.Silverlight.resources.dll
+C:\WebyWebeditor\Database(fireworks).Web\bin\ja\System.Web.Silverlight.resources.dll
+C:\WebyWebeditor\Database(fireworks).Web\bin\ko\System.Web.Silverlight.resources.dll
+C:\WebyWebeditor\Database(fireworks).Web\bin\zh-Hans\System.Web.Silverlight.resources.dll
+C:\WebyWebeditor\Database(fireworks).Web\bin\zh-Hant\System.Web.Silverlight.resources.dll
+C:\WebyWebeditor\Database(fireworks).Web\obj\Release\ResolveAssemblyReference.cache
+C:\WebyWebeditor\Database(fireworks).Web\obj\Release\Database(fireworks).Web.dll
+C:\WebyWebeditor\Database(fireworks).Web\obj\Release\Database(fireworks).Web.pdb

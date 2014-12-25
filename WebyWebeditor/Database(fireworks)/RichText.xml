@@ -1,0 +1,46 @@
+﻿<LiquidRichText xmlns:liquid="clr-namespace:Liquid;assembly=Liquid.RichText">
+	<Style ID="H1" FontFamily="Arial" FontSize="28" FontWeight="Bold" Shadow="Slight" Margin="0,12,0,3" />
+	<Style ID="H2" FontFamily="Arial" FontSize="24" FontWeight="Bold" Foreground="#ff000044" Shadow="Slight" Margin="0,12,0,3" />
+  <Style ID="H3" FontFamily="Arial" FontSize="22" FontWeight="Bold" Foreground="#ff000044" Shadow="Slight" Margin="0,12,0,3" />
+  <Style ID="Normal" FontFamily="Arial" FontSize="14" Margin="0" VerticalAlignment="Center" />
+  <Style ID="Default" FontFamily="Arial" FontSize="14" />
+  <Style ID="Bold" FontFamily="Arial" FontSize="14" FontWeight="Bold" />
+	<Style ID="Italic" FontFamily="Arial" FontSize="14" FontStyle="Italic" />
+	<Style ID="Underline" FontFamily="Arial" FontSize="14" Decoration="Underline" />
+  <Style ID="Superscript" FontFamily="Arial" FontSize="14" Special="Superscript" />
+  <Style ID="Subscript" FontFamily="Arial" FontSize="14" Special="Subscript" />
+  <Style ID="CenteredNormal" FontFamily="Arial" FontSize="14" Alignment="Center" />
+  <Style ID="CenteredBold" FontFamily="Arial" FontSize="14" FontWeight="Bold" Alignment="Center" />
+  <Style ID="License" FontFamily="Arial" FontSize="10" FontStyle="Italic" FontWeight="Bold" />
+	<Style ID="TimesNewRoman" FontFamily="Times New Roman" FontSize="18" Alignment="Center" Foreground="#ffff0000" Shadow="Slight" />
+	<Style ID="ComicSans" FontFamily="Comic Sans MS" FontSize="18" Alignment="Center" Foreground="#ff00ff00" Shadow="Slight" />
+	<Style ID="Courier" FontFamily="Courier New" FontSize="18" Alignment="Center" Foreground="#ff00ffff" Shadow="Slight" />
+	<Style ID="Lucida" FontFamily="Lucida Grande" FontSize="18" Alignment="Center" Foreground="#ffff00ff" Shadow="Slight" />
+	<Style ID="Trebuchet" FontFamily="Trebuchet MS" FontSize="18" Alignment="Center" Foreground="#ffffff00" Shadow="Slight" />
+	<Style ID="Verdana" FontFamily="Verdana" FontSize="18" Alignment="Center" Shadow="Slight" />
+	<Style ID="Link" FontFamily="Arial" FontSize="14" Decoration="Underline" Link="http://www.vectorlight.net" />
+  <Style ID="SilverlightLink" FontFamily="Arial" FontSize="14" Decoration="Underline" Link="http://www.silverlight.net" />
+  <Style ID="Strike" FontFamily="Arial" FontSize="14" Foreground="#FF000000" Alignment="Left" Effect="Strike" />
+	<Style ID="SmallRed" FontFamily="Arial" FontSize="14" Foreground="#FFFF0000" Alignment="Left" />
+	<Style ID="MagentaBack" FontFamily="Arial" FontSize="14" Foreground="#FFFFFFFF" Background="#FFFF00FF" Alignment="Left" />
+	<Style ID="DottedSmall" FontFamily="Arial" FontSize="14" Foreground="#FF000000" Alignment="Left" Border="Dotted" />
+	<Style ID="DashedSmall" FontFamily="Arial" FontSize="14" Foreground="#FF000000" Alignment="Left" Border="Dashed" />
+	<Style ID="Shadowed" FontFamily="Arial" FontSize="14" Shadow="Normal" />
+	<Style ID="SlightShadowed" FontFamily="Arial" FontSize="14" Shadow="Slight" />
+  <TableStyle ID="TableBlue" CellPadding="3" BorderBrush="#d7e5ed" BorderThickness="1,1,1,1" CellBorderBrush="#d7e5ed" CellBorderThickness="1,1,1,1">
+    <Background>
+      <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#f8f8f8" Offset="0" />
+        <GradientStop Color="#ffffff" Offset="1" />
+      </LinearGradientBrush>
+    </Background>
+    <HeaderFill>
+      <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+        <GradientStop Color="#f6fbfd" Offset="0.0" />
+        <GradientStop Color="#d5effc" Offset="0.9" />
+        <GradientStop Color="#e7f5fd" Offset="0.9" />
+        <GradientStop Color="#e7f5fd" Offset="1.0" />
+      </LinearGradientBrush>
+    </HeaderFill>
+  </TableStyle>
+</LiquidRichText>

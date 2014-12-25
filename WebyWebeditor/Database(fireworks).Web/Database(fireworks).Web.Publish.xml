@@ -1,0 +1,25 @@
+<publishData>
+  <publishTarget publishUrl="http://localhost/">
+    <file relUrl="bin/zh-Hant/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="bin/System.Web.Silverlight.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="bin/de/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="App_Data/NORTHWND_log.ldf" publishTime="03/20/2009 14:41:40" />
+    <file relUrl="Web.config" publishTime="03/20/2009 14:03:13" />
+    <file relUrl="Database(fireworks)TestPage.aspx" publishTime="03/07/2009 13:14:46" />
+    <file relUrl="Database(fireworks)TestPage.html" publishTime="03/07/2009 13:14:46" />
+    <file relUrl="crossdomain.xml" publishTime="03/20/2009 23:22:52" />
+    <file relUrl="bin/it/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="bin/zh-Hans/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="bin/Database(fireworks).Web.dll" publishTime="03/20/2009 23:26:37" />
+    <file relUrl="bin/fr/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="DemoService.svc" publishTime="03/07/2009 13:24:14" />
+    <file relUrl="bin/ja/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="bin/es/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="bin/Database(fireworks).Web.pdb" publishTime="03/20/2009 23:26:37" />
+    <file relUrl="bin/ko/System.Web.Silverlight.resources.dll" publishTime="10/05/2008 02:53:18" />
+    <file relUrl="Default.aspx" publishTime="03/07/2009 13:14:46" />
+    <file relUrl="ClientBin/Database(fireworks).xap" publishTime="03/20/2009 23:18:37" />
+    <file relUrl="App_Data/NORTHWND.MDF" publishTime="03/20/2009 14:41:40" />
+    <file relUrl="Silverlight.js" publishTime="03/07/2009 13:14:46" />
+  </publishTarget>
+</publishData>

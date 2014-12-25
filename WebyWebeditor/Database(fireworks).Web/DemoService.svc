@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Database_fireworks_.Web.DemoService" CodeBehind="DemoService.svc.cs" %>
